@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'adineue PRO';
+    src: url('adineuePRO-Light.woff2') format('woff2'),
+        url('adineuePRO-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'adineue PRO';
+    src: url('adineuePRO-LightItalic.woff2') format('woff2'),
+        url('adineuePRO-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'adineue PRO';
+    src: url('adineuePRO-Black.woff2') format('woff2'),
+        url('adineuePRO-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'adineue PRO';
+    src: url('adineuePRO-BoldItalic.woff2') format('woff2'),
+        url('adineuePRO-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'adineue PRO';
+    src: url('adineuePRO-Regular.woff2') format('woff2'),
+        url('adineuePRO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'adineue PRO';
+    src: url('adineuePRO-BlackItalic.woff2') format('woff2'),
+        url('adineuePRO-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'adineue PRO';
+    src: url('adineuePRO-Bold.woff2') format('woff2'),
+        url('adineuePRO-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'adineue PRO Regular';
+    src: url('adineuePRO-RegularItalic.woff2') format('woff2'),
+        url('adineuePRO-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
