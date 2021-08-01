@@ -1,4 +1,6 @@
 $primary: #4166f5;
+$text-primary: #000000;
+$text-secondary: #333333;
 
 * {
   padding: 0;
@@ -8,7 +10,71 @@ $primary: #4166f5;
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: $primary;
+  color: white;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+
+  .container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .name {
+      font-size: 28px;
+      font-weight: 700;
+      color: $text-secondary;
+
+      span {
+        color: $primary;
+      }
+    }
+
+    nav {
+      height: 100%;
+
+      ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        height: 100%;
+
+        li:not(.btn) {
+          font-size: 20px;
+          margin-left: 1.5rem;
+          
+          a {
+            vertical-align: baseline;
+          }
+        }
+      }
+    }
+  }
 }
