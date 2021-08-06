@@ -31,8 +31,8 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="mailto:hynek@flairdive.com">
-                  <a className="btn btn-primary">Contact</a>
+                <Link href="mailto:hynek@oneflair.org">
+                  <a className="btn btn-primary btn-nav">Contact</a>
                 </Link>
               </li>
             </ul>
