@@ -274,6 +274,99 @@ main {
       }
     }
   }
+
+  &.projects {
+    h2 {
+      color: $text-primary;
+      font-size: 3.5rem;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    .row:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    .row {
+      margin-top: 4rem;
+    }
+
+    .row > div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .product-image {
+        width: 100%;
+        max-width: 40vh;
+        height: auto;
+      }
+
+      .logo {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        img {
+          max-height: 50px !important;
+          max-width: 50px !important;
+        }
+
+        h3 {
+          font-size: 2.5rem;
+          font-weight: bold;
+          margin-left: 0.75rem;
+          color: $text-primary;
+        }
+      }
+
+      .tags {
+        div {
+          margin-top: 1rem;
+          color: white;
+          background-color: $text-tertiary;
+          font-size: 14px;
+          font-weight: 700;
+          border-radius: 50px;
+          padding: 5px 10px;
+          margin-right: 0.5rem;
+          display: inline-block;
+        }
+      }
+
+      p {
+        font-size: 2rem;
+        margin-top: 1rem;
+        color: $text-secondary;
+      }
+
+      .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 1rem;
+
+        a {
+          font-size: 1.5rem;
+          font-weight: bold;
+          color: $text-tertiary;
+          margin-right: 0.75rem;
+
+          &:not(.disabled) {
+            color: $primary;
+            transition: all 0.2s ease;
+
+            &:hover {
+              color: darken($primary, 7);
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 footer {

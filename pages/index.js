@@ -63,7 +63,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hynek Fišera | Web Development & UX Design</title>
+        <title>Hynek Fišera | Web Development {"&"} UX Design</title>
         <meta name="description" content="My name is Hynek and I am a Web Developer from Czech Republic. I'm also interested in logo design, UI/UX design and branding." />
       </Head>
       <main className="index">
