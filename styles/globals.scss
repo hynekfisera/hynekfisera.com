@@ -1,4 +1,4 @@
-$primary: #4166f5;
+$primary: #246dff;
 $text-primary: #0a0e15;
 $text-secondary: #172030;
 $text-tertiary: #2c3d5a;
@@ -21,6 +21,20 @@ $text-tertiary: #2c3d5a;
   }
 }
 
+@media screen and (max-width: 768px) {
+  header .container div {
+    nav {
+      * {
+        margin-left: 0 !important;
+      }
+
+      ul li a:not(.btn) {
+        display: none !important;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 576px) {
   html {
     font-size: 12px !important;
@@ -28,14 +42,6 @@ $text-tertiary: #2c3d5a;
 
   .index h2 {
     font-size: 4rem !important;
-  }
-
-  header .container div {
-    justify-content: center !important;
-
-    nav {
-      display: none !important;
-    }
   }
 }
 
