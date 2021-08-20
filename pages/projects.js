@@ -30,12 +30,12 @@ export default function Projects() {
     <>
       <Head>
         <title>My Projects - Hynek Fišera | Web Development {"&"} UX Design</title>
-        <meta name="description" content="My name is Hynek and I am a Web Developer from Czech Republic. I'm also interested in logo design, UI/UX design and branding." />
+        <meta name="description" content="Websites, apps, open-source projects and other software I built over the past few years." />
       </Head>
       <main className="projects">
         <section className="projects">
           <div className="container">
-            <h2>My Projects</h2>
+            <h1>My Projects</h1>
             {projects.map((project) => {
               return (
                 <div className="row" key={project.title}>
@@ -46,7 +46,7 @@ export default function Projects() {
                     <div>
                       <div className="logo">
                         <Image src={project.logo} alt={project.title} />
-                        <h3>{project.title}</h3>
+                        <h2>{project.title}</h2>
                       </div>
                       <div className="tags">
                         {project.tags.map((tag) => {
