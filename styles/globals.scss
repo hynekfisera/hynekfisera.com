@@ -400,12 +400,12 @@ main {
         width: 100%;
         max-width: 40vh;
         height: auto;
+        border-radius: 1rem;
       }
 
       h3 {
         font-size: 2.5rem;
         font-weight: bold;
-        margin-left: 0.75rem;
         color: $text-primary;
       }
 

@@ -2,8 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 
 import GithubHynekfiseraImage from "../public/assets/aboutGithubHynekfisera.png";
+import YoutubeArfiImage from "../public/assets/aboutYoutubeArfi.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 export default function about() {
   const items = [
@@ -13,6 +14,13 @@ export default function about() {
       description: "A place where you can find my projects, some of which are open-source.",
       image: GithubHynekfiseraImage,
       linkTakeMeThere: "https://github.com/hynekfisera",
+    },
+    {
+      icon: faYoutube,
+      title: "Arfi",
+      description: "My czech YouTube channel with tutorials on programming, software, servers and so on",
+      image: YoutubeArfiImage,
+      linkTakeMeThere: "https://youtube.com/phpmyarfi",
     },
   ];
 
